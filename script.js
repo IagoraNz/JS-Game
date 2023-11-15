@@ -6,9 +6,9 @@ document.getElementById("botaodechute").addEventListener("click", function(){ //
     //Pense assim: pego o elemento e adiciono uma ação
     //addEventListener adiciona um evento para que o botão possa realize o js quando clicado
 
-    var chute = parseInt(document.getElementById("entradedechute").value); //parseInt converte o valor do input para inteiro, pense numa variável int que recebe o valor
+    var chute = parseInt(document.getElementById("entradachute").value); //parseInt converte o valor do input para inteiro, pense numa variável int que recebe o valor
 
-    //document.getElementById("entradedechute") pega o elemento do HTML que tem o id entradedechute
+    //document.getElementById("entradachute") pega o elemento do HTML que tem o id entradachute
     //.value pega o valor do input
 
     if(isNaN(chute) || chute < 1 || chute > 100){ //isNaN verifica se o valor passado como parâmetro é um número
@@ -36,6 +36,6 @@ document.getElementById("resetar").addEventListener("click", function(){ //Adici
     tentativas = 0; //Zera o número de tentativas
     document.getElementById("resultado").textContent = ""; //As aspas vazias fazem com que o texto do elemento seja apagado, a mesma coisa para os seguintes
     document.getElementById("tentativas").textContent = "";
-    document.getElementById("entradedechute").value = "";
+    document.getElementById("entradachute").value = "";
     document.getElementById("botaodechute").disabled = false; // Habilita o botão ao reiniciar
 });
