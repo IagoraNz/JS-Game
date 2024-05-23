@@ -1,19 +1,22 @@
-# 📄 Aplicação prática em JavaScript: jogo de adivinhar um número
-O código JavaScript implementa um jogo de adivinhação de números. Os eventos de clique permitem que o jogador faça palpites e reinicie o jogo.
+# 📄 Practical application in JavaScript: guess a number game
+The JavaScript code implements a number guessing game. Click events allow the player to make guesses and restart the game.
 
-## :link: Ambiente de desenvolvimento
-1. Em relação ao JavaScript
+## :link: Development environment
+1. JavaScript
 ```
 v18.18.0
 ```
-2. E o Visual Studio Code
+2. Visual Studio Code
 ```
 1.89.1
 ```
 
-## :link: Descrição do algoritmo
-O código JavaScript apresenta um jogo simples de adivinhação de números em uma página da web. Ele inicia definindo um número aleatório entre 1 e 100, que o jogador deve tentar adivinhar. A variável `tentativas` mantém o controle do número de tentativas feitas pelo jogador. Dois eventos de clique são configurados: um para o botão de chute e outro para o botão de resetar.
+## :link: Algorithm description
+The JavaScript code presents a simple number guessing game on a web page. It starts by defining a random number between 1 and 100, which the player must try to guess. The `tentativas` variable keeps track of the number of attempts made by the player. Two click events are configured: one for the kick button and one for the reset button.
 
-Quando o botão de chute é clicado, uma função é acionada. Dentro desta função, o valor digitado pelo jogador é obtido a partir do campo de entrada (`entradachute`). Se o valor não for um número válido entre 1 e 100, uma mensagem de alerta é exibida. Caso contrário, o número de tentativas é incrementado, e o programa verifica se o chute do jogador corresponde ao número secreto. Dependendo do resultado, uma mensagem indicando se o número é maior, menor ou igual ao número secreto é exibida no elemento HTML correspondente.
+When the kick button is clicked, a function is triggered. Within this function, the value entered by the player is obtained from the input field (`entradachute`). If the value is not a valid number between 1 and 100, an alert message is displayed. Otherwise, the number of attempts is incremented, and the program checks whether the player's shot matches the secret number. Depending on the result, a message indicating whether the number is greater than, less than, or equal to the secret number is displayed in the corresponding HTML element.
 
-O botão de resetar também possui um evento de clique associado. Quando clicado, ele gera um novo número secreto, reinicia o contador de tentativas e limpa as mensagens exibidas na página, permitindo ao jogador reiniciar o jogo.
+The reset button also has an associated click event. When clicked, it generates a new secret number, resets the attempt counter, and clears the messages displayed on the page, allowing the player to restart the game.
+
+## :link: Contribution
+Help improve the project! Fork it and develop your creativity!
